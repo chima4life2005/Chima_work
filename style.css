@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-section-div {
+  background-color: transparent;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.navbar-section-div ul {
+  color: white;
+  font-size: large;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.navbar-section-div div button {
+  background-color: orangered;
+  width: 112px;
+  height: 42px;
+  border-radius: 10px;
+  color: white;
+  font-size: medium;
+  border-color: transparent;
+  cursor: pointer;
+}
+.navbar-section-div div button:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* hero section css */
+.hero-section {
+  background: linear-gradient(
+      to top,
+      rgba(26, 24, 24, 0.347),
+      rgba(16, 16, 46, 0.593),
+      rgba(0, 0, 0, 0.146)
+    ),
+    url(home-hero.jpg);
+  /* background-image: url("home-hero.jpg"); */
+  /* background-blend-mode:color-dodge; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  padding: 40px;
+}
+
+.hero-section h3 {
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgba(151, 148, 148, 0.2);
+  border-style: initial;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: x-large;
+  font-weight: lighter;
+  padding-left: 5px;
+  margin-top: 170px;
+}
+
+.hero-section h1 {
+  font-size: 65px;
+  width: 50%;
+  margin-bottom: 28px;
+}
+
+.hero-section p {
+  font-size: large;
+  width: 50%;
+  line-height: 25px;
+  margin-bottom: 35px;
+}
+
+/* .hero-section div button:nth-child(1) {
+/* .hero-section div button:first-child {} */
+/* background-color: orangered; */
+
+.hero-section div button {
+  background-color: orangered;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  font-size: large;
+  color: white;
+  border-color: transparent;
+  margin-right: 80px;
+  cursor: pointer;
+}
+.hero-section div button:hover {
+  background-color: orange;
+}
+.hero-section .hero-btn2 {
+  background-color: transparent;
+  border-color: rgba(177, 160, 160, 0.5);
+}
+/* hero section css ends here */
+
+/* destination css section starts */
+.destination-section h3 {
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  color: orangered;
+  font-weight: lighter;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(255, 174, 0, 0.4);
+}
+
+.destination-section h1 {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-size: xx-large;
+  font-weight: bolder;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.destination-flex-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.destination-flex-container div div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 70px;
+}
+.destination-flex-container div > div {
+  width: 360px;
+}
+.destination-flex-container .destination-package-container {
+  border-style: double;
+  border-color: transparent;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  top: -65px;
+  left: 108px;
+  right: auto;
+}
+.destination-flex-container .dest-pack-2 {
+  border-style: double;
+  border-color: transparent;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  top: -65px;
+  left: 108px;
+  right: auto;
+}
+.destination-flex-container .dest-pack-3 {
+  border-style: double;
+  border-color: transparent;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  align-content: center;
+  position: relative;
+  top: -65px;
+  left: 108px;
+  right: auto;
+}
+.destination-flex-container h4 {
+  background-color: rgb(250, 180, 99);
+  font-weight: normal;
+  font-size: large;
+  font-style: normal;
+  color: orangered;
+  width: 100px;
+  justify-self: center;
+  border-radius: 15px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  text-align: center;
+}
+
+/* destination css ends */
+/* about us section css */
+.about-us-section {
+  background-color: #fff7ec;
+}
+.about-us-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.Abt-us-2 h3 {
+  color: orangered;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: normal;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 200px;
+  text-align: center;
+  align-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.Abt-us-2 h1 {
+  font-size: 65px;
+  font-weight: bolder;
+  /* width: 100px; */
+  /* text-align: center;
+  align-content: center; */
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/* About us section ends here */
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 900px) {
+  .destination-flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 834px) {
+  .navbar-section-div ul {
+    display: none;
+  }
+}
+
+.navbar-section-div div button {
+  display: none;
+}
+.hero-section {
+  width: 100%;
+}
+.hero-section p {
+  width: 100%;
+}
+.hero-section .hero-btn2 {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .hero-section h3 {
+    width: 220px;
+    font-size: medium;
+  }
+  .hero-section h1 {
+    font-size: 43px;
+  }
+}
